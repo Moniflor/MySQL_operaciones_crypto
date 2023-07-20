@@ -46,6 +46,8 @@ Supongamos que tenemos una operación de compra de 1.5 bitcoins('cantidad') a un
 
 Este procedimiento toma un parámetro 'moneda' (nombre de la criptomoneda) y calcula el precio promedio de la criptomoneda específica en todas las operaciones registradas en la tabla 'operaciones_crypto'. El resultado redondea a dos decimales.
 
+https://github.com/Moniflor/MySQL_operaciones_crypto/blob/main/procedures/media_precio_general.txt
+
 **Ejemplo**
 
 Si tenemos las siguientes operaciones de compra de Bitcoin('btc') en la tabla 'operaciones_crypto':
