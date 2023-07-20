@@ -76,6 +76,8 @@ El resultado del procedimiento 'total_euros' para la criptomoneda 'xrp' sería:
 
 Este procedimiento toma un parámetro 'moneda' (nombre de la criptomoneda) y devuelve el total de la cantidad de esa criptomoneda involucrada en todas las operaciones registradas en la tabla 'operaciones_crypto'. El resultado se redondea a siete decimales.
 
+https://github.com/Moniflor/MySQL_operaciones_crypto/blob/main/procedures/total_cantidad.txt
+
 **Ejemplo**
 
 Si tenemos las siguientes operaciones de compra de Ethereum ('eth') en la tabla 'operaciones_crypto':
