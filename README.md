@@ -24,6 +24,7 @@ Esta tabla contiene información sobre las diferentes criptomonedas disponibles 
 - **nombre_crypto**: Nombre de la criptomoneda.
 
 En el repostorio se adjunta el script de la estructura de la base de datos.
+https://github.com/Moniflor/MySQL_operaciones_crypto/blob/main/bdcrypto.sql 
 
 ##Procedimientos Almacenados
 
