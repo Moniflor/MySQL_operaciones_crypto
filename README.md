@@ -36,6 +36,8 @@ En la carpeta procedures/ se encuentran los script de los procedimientos almacen
 
 Este procediemiento no tiene parámetros y devuelve todas las operaciones de la tabla 'operaciones_crypto' jutno con una columna adicional llamada 'euros', que representa el valor en euros de cada operación. El cálculo se realiza multiplicando el 'precio_crytpto' por la 'cantidad' y redondeando a dos decimales.
 
+https://github.com/Moniflor/MySQL_operaciones_crypto/blob/main/procedures/calcular_precio.txt
+
 **Ejemplo**
 
 Supongamos que tenemos una operación de compra de 1.5 bitcoins('cantidad') a un precio de 35000 euros por bitcoin('precio_crypto'). El resultado del procedimiento 'calcular_precio' mostrará esta operación con un valor total de 52500 euros(1.5 bitcoins * 35000 euros/bitcoin).
