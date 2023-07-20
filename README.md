@@ -2,7 +2,7 @@
 
 Este repositorio contiene una base de datos relacionada con criptomonedas implementada en MySQL. La base de datos almacena información sobre operaciones de compra y venta de criptomonedas, y también incluye una tabla para monedas cripto específicas.
 
-En la carpeta documentation/ agregamos enlaces de interés a la documentación oficial de MySQL y a algún curso que podría resultar útil.
+En la carpeta documentación/ agregamos enlaces de interés a la documentación oficial de MySQL y a algún curso que podría resultar útil.
 
 ##Tablas de la Base de Datos
 
