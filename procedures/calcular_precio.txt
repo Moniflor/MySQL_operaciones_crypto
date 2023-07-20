@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `calcular_precio`()
+BEGIN
+  select*,  round(precio_crypto * cantidad,2) as euros
+  from operaciones_crypto;
+END

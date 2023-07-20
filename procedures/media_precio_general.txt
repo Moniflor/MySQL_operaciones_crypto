@@ -1,0 +1,6 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `media_precio_general`(in moneda varchar(45))
+BEGIN
+   select round((sum(precio_crypto * cantidad) / sum(cantidad)), 2) as total
+   from operaciones_crypto
+   where id_moneda = moneda;
+END

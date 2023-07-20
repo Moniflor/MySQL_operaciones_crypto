@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `total_cantidad`(in moneda varchar(45))
+BEGIN
+  select round(sum(cantidad),7) from operaciones_crypto
+  where id_moneda = moneda;
+END

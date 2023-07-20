@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `total_euros`(in moneda varchar(45))
+BEGIN
+  select round(sum(precio_crypto * cantidad),2) from operaciones_crypto as total_btc
+  where id_moneda = moneda;
+END
