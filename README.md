@@ -62,6 +62,8 @@ El resultado del procedimiento 'media_preio_general' para la criptomoneda 'btc' 
 
 Este procedimiento toma un parámetro 'moneda' (nombre de la criptomoneda) y devuelve el valor total en euros de todas las operaciones de esa criptomoneda registradas en la tabla 'operaciones_crypto'. El resultado se redondea a dos decimales.
 
+https://github.com/Moniflor/MySQL_operaciones_crypto/blob/main/procedures/total_euros.txt
+
 **Ejemplo**
 
 Si tenemos las siguientes operaciones de compra de Ripple ('xrp') en la tabla 'operaciones_crypto':
